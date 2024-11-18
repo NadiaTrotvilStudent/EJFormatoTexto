@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Bandos de Star Wars</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Los Bandos de Star Wars</h1>
+        <p class="text-center text-muted mb-4">(las originales, que eran la posta)</p>
+
+        <div class="row">
+            <!-- El Imperio -->
+            <div class="col-md-6">
+                <div class="faction-card">
+                    <h2 class="faction-header imperio">El Imperio</h2>
+                    <div class="faction-content">
+                        <div class="faction-member">
+                            <h3>Líder:</h3>
+                            <p id="darth-vader" class="imperio">Darth Vader</p>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Star_Wars_-_Darth_Vader.jpg" alt="Darth Vader" class="img-fluid">
+                        </div>
+                        <div class="faction-member">
+                            <h3>Tropa principal:</h3>
+                            <p class="imperio soldados soldados-spacing">Storm Trooper</p>
+                            <img src="https://images.app.goo.gl/V7wEzYwLpdKwKeiq8" alt="Storm Trooper" class="img-fluid">
+                        </div>
+                        <div class="faction-member">
+                            <h3>Unidades de apoyo:</h3>
+                            <ul class="list-unstyled">
+                                <li class="apoyo">
+                                    <p class="imperio naves">Caminante AT-AT</p>
+                                    <img src="https://static.wikia.nocookie.net/starwars/images/d/db/AT-ATWalker.png" alt="Caminante AT-AT" class="img-fluid">
+                                </li>
+                                <li class="apoyo mt-3">
+                                    <p class="imperio naves">Tie Fighter</p>
+                                    <img src="http://vignette1.wikia.nocookie.net/starwars/images/9/92/TIEfighter2-Fathead.png/revision/latest?cb=20150309055216" alt="Tie Fighter" class="img-fluid">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Los Rebeldes -->
+            <div class="col-md-6">
+                <div class="faction-card">
+                    <h2 class="faction-header rebeldes">Los Rebeldes</h2>
+                    <div class="faction-content">
+                        <div class="faction-member">
+                            <h3>Líder:</h3>
+                            <p id="luke-skywalker" class="rebeldes">Luke Skywalker</p>
+                            <img src="http://rightwingnews.com/wp-content/uploads/2016/03/luke-skywalker-gay-2.jpg" alt="Luke Skywalker" class="img-fluid">
+                        </div>
+                        <div class="faction-member">
+                            <h3>Tropa principal:</h3>
+                            <p class="rebeldes soldados soldados-spacing">Soldado Rebelde</p>
+                            <img src="http://vignette1.wikia.nocookie.net/united-players/images/6/69/Standard_rebel_soldiers.jpg/revision/latest?cb=20131214023311" alt="Soldado Rebelde" class="img-fluid">
+                        </div>
+                        <div class="faction-member">
+                            <h3>Unidades de apoyo:</h3>
+                            <ul class="list-unstyled">
+                                <li class="apoyo">
+                                    <p class="rebeldes naves">Tanque</p>
+                                    <img src="http://vignette2.wikia.nocookie.net/starwars/images/f/f1/T3-B.jpg/revision/latest?cb=20050709081448" alt="Tanque" class="img-fluid">
+                                </li>
+                                <li class="apoyo mt-3">
+                                    <p class="rebeldes naves">X-Wing</p>
+                                    <img src="http://vignette4.wikia.nocookie.net/starwars/images/3/3d/X-wing_Ultimate.png/revision/latest?cb=20150508162001" alt="X-Wing" class="img-fluid">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Video -->
+        <div class="mt-4">
+            <h2 class="text-center mb-3">Video: La Batalla de Hoth</h2>
+            <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/17IT-zXeDRM?si=Yms4nH6K2ul82hkX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

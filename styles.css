@@ -1,0 +1,113 @@
+/* Clases generales para Imperio y Rebeldes */
+.imperio {
+    background-color: red;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+.rebeldes {
+    background-color: blue;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Estilos específicos para Darth Vader y Luke Skywalker */
+#darth-vader {
+    font-size: 1.5em; /* Tamaño de letra aumentado */
+}
+
+#luke-skywalker {
+    font-style: italic; /* Texto en itálica */
+}
+
+/* Estilos para los soldados */
+.soldados {
+    border: 2px dashed black; /* Borde a rayas */
+}
+
+.soldados-spacing {
+    letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+/* Estilos para unidades de apoyo */
+.apoyo {
+    text-align: center; /* Texto centrado */
+}
+
+/* Estilos para naves */
+.naves {
+    text-transform: uppercase; /* Todo en mayúsculas */
+}
+
+/****/
+
+.imperio {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.rebeldes {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#darth-vader {
+    font-size: 1.5em;
+}
+
+#luke-skywalker {
+    font-style: italic;
+}
+
+.soldados {
+    border: 2px dashed black;
+}
+
+.soldados-spacing {
+    letter-spacing: 2px;
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+}
+
+.faction-card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.faction-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+.faction-content {
+    padding: 1.25rem;
+}
+
+.faction-member {
+    margin-bottom: 1rem;
+}
+
+.faction-member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
