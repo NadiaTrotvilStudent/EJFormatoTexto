@@ -3,6 +3,12 @@
 Este proyecto representa los bandos del universo de **Star Wars**, mostrando imágenes y descripciones de sus miembros principales. Utiliza HTML5 y CSS3 para estructurar y estilizar la página, mientras que las imágenes se obtienen de fuentes confiables en línea.
 
 ---
+## Visualización en GitHub Pages
+
+Puedes acceder al proyecto en línea haciendo clic en el siguiente enlace:
+
+**[Ver sitio en GitHub Pages](https://nadiatrotvilstudent.github.io/EJFormatoTexto/))**
+
 
 ## Estructura del Proyecto
 
@@ -42,7 +48,7 @@ El proyecto incluye los siguientes elementos:
 
 1. Descarga el repositorio o clona el proyecto:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone <https://github.com/NadiaTrotvilStudent/EJFormatoTexto.git>
 
 
 ---
